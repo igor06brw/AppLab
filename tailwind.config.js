@@ -5,6 +5,9 @@ module.exports = {
   },
   purge: [],
   theme: {
+    screens: {
+      xl: '1170px',
+    },
     extend: {},
   },
   variants: {},
