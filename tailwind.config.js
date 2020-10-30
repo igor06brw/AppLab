@@ -24,6 +24,7 @@ module.exports = {
       white: '#fff',
       'primary': '#242f51',
       'primary-button': '#2500f9',
+      'logo-coloured': '#fcae61',
 
       gray: {
         100: '#f7fafc',
