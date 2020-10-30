@@ -5,8 +5,8 @@ module.exports = {
   },
   purge: [],
   theme: {
-    screens: {
-      xl: '1170px',
+    textColor: {
+      'primary': '#242f51',
     },
     extend: {},
   },
