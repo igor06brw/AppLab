@@ -31,9 +31,9 @@ module.exports = {
       'award-bg': '#e2eaed',
       'headline': '#fdfdfe',
 
-      'icon-speed': '#f55767',
-      'icon-prototype': '#2563ff',
-      'icon-vector': '#40975f',
+      'icon-red': '#f55767',
+      'icon-blue': '#2563ff',
+      'icon-green': '#40975f',
 
       gray: {
         100: '#f7fafc',
