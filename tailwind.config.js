@@ -25,6 +25,8 @@ module.exports = {
       'primary': '#242f51',
       'primary-button': '#2500f9',
       'logo-coloured': '#fcae61',
+      'award-span' : '#feaa25',
+      'award-bg': '#e2eaed',
 
       gray: {
         100: '#f7fafc',
