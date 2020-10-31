@@ -314,6 +314,7 @@ module.exports = {
     inset: {
       '0': '0',
       auto: 'auto',
+      
     },
     letterSpacing: {
       tighter: '-0.05em',
@@ -832,5 +833,13 @@ module.exports = {
     animation: ['responsive'],
   },
   corePlugins: {},
-  plugins: [],
+  plugins: [
+    require('tailwindcss-inset')({
+      variants: ['responsive'], // default: []
+      insets: {
+        '1/2': '50%',
+        'full': '100%'
+      }
+    })
+  ],
 }

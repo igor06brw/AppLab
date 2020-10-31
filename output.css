@@ -22884,6 +22884,52 @@ video {
           animation: bounce 1s infinite;
 }
 
+.inset-1\/2 {
+  top: 50%;
+  right: 50%;
+  bottom: 50%;
+  left: 50%;
+}
+
+.inset-t-1\/2 {
+  top: 50%;
+}
+
+.inset-r-1\/2 {
+  right: 50%;
+}
+
+.inset-b-1\/2 {
+  bottom: 50%;
+}
+
+.inset-l-1\/2 {
+  left: 50%;
+}
+
+.inset-full {
+  top: 100%;
+  right: 100%;
+  bottom: 100%;
+  left: 100%;
+}
+
+.inset-t-full {
+  top: 100%;
+}
+
+.inset-r-full {
+  right: 100%;
+}
+
+.inset-b-full {
+  bottom: 100%;
+}
+
+.inset-l-full {
+  left: 100%;
+}
+
 html {
   font-family: 'Poppins', sans-serif;
 }
@@ -45120,6 +45166,52 @@ html {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
   }
+
+  .sm\:inset-1\/2 {
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+  }
+
+  .sm\:inset-t-1\/2 {
+    top: 50%;
+  }
+
+  .sm\:inset-r-1\/2 {
+    right: 50%;
+  }
+
+  .sm\:inset-b-1\/2 {
+    bottom: 50%;
+  }
+
+  .sm\:inset-l-1\/2 {
+    left: 50%;
+  }
+
+  .sm\:inset-full {
+    top: 100%;
+    right: 100%;
+    bottom: 100%;
+    left: 100%;
+  }
+
+  .sm\:inset-t-full {
+    top: 100%;
+  }
+
+  .sm\:inset-r-full {
+    right: 100%;
+  }
+
+  .sm\:inset-b-full {
+    bottom: 100%;
+  }
+
+  .sm\:inset-l-full {
+    left: 100%;
+  }
 }
 
 @media (min-width: 768px) {
@@ -67353,6 +67445,52 @@ html {
   .md\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .md\:inset-1\/2 {
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+  }
+
+  .md\:inset-t-1\/2 {
+    top: 50%;
+  }
+
+  .md\:inset-r-1\/2 {
+    right: 50%;
+  }
+
+  .md\:inset-b-1\/2 {
+    bottom: 50%;
+  }
+
+  .md\:inset-l-1\/2 {
+    left: 50%;
+  }
+
+  .md\:inset-full {
+    top: 100%;
+    right: 100%;
+    bottom: 100%;
+    left: 100%;
+  }
+
+  .md\:inset-t-full {
+    top: 100%;
+  }
+
+  .md\:inset-r-full {
+    right: 100%;
+  }
+
+  .md\:inset-b-full {
+    bottom: 100%;
+  }
+
+  .md\:inset-l-full {
+    left: 100%;
   }
 }
 
@@ -89588,6 +89726,52 @@ html {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
   }
+
+  .lg\:inset-1\/2 {
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+  }
+
+  .lg\:inset-t-1\/2 {
+    top: 50%;
+  }
+
+  .lg\:inset-r-1\/2 {
+    right: 50%;
+  }
+
+  .lg\:inset-b-1\/2 {
+    bottom: 50%;
+  }
+
+  .lg\:inset-l-1\/2 {
+    left: 50%;
+  }
+
+  .lg\:inset-full {
+    top: 100%;
+    right: 100%;
+    bottom: 100%;
+    left: 100%;
+  }
+
+  .lg\:inset-t-full {
+    top: 100%;
+  }
+
+  .lg\:inset-r-full {
+    right: 100%;
+  }
+
+  .lg\:inset-b-full {
+    bottom: 100%;
+  }
+
+  .lg\:inset-l-full {
+    left: 100%;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -111821,5 +112005,51 @@ html {
   .xl\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .xl\:inset-1\/2 {
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+  }
+
+  .xl\:inset-t-1\/2 {
+    top: 50%;
+  }
+
+  .xl\:inset-r-1\/2 {
+    right: 50%;
+  }
+
+  .xl\:inset-b-1\/2 {
+    bottom: 50%;
+  }
+
+  .xl\:inset-l-1\/2 {
+    left: 50%;
+  }
+
+  .xl\:inset-full {
+    top: 100%;
+    right: 100%;
+    bottom: 100%;
+    left: 100%;
+  }
+
+  .xl\:inset-t-full {
+    top: 100%;
+  }
+
+  .xl\:inset-r-full {
+    right: 100%;
+  }
+
+  .xl\:inset-b-full {
+    bottom: 100%;
+  }
+
+  .xl\:inset-l-full {
+    left: 100%;
   }
 }
