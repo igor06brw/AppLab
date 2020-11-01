@@ -63,7 +63,8 @@ html {
     top: 30%;
   }
   .text:before {
-    left: 56%;
+    color: #616368;
+    left: 59%;
     content: 'Annually';
   }
   .text:after {
@@ -84,5 +85,5 @@ html {
     color: #fff;
   }
   input:checked ~ .text:after{
-    color: #000;
+    color: #616368;
   }

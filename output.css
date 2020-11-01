@@ -23045,7 +23045,8 @@ html {
 }
 
 .text:before {
-  left: 56%;
+  color: #616368;
+  left: 59%;
   content: 'Annually';
 }
 
@@ -23068,7 +23069,7 @@ input:checked ~ .text:before {
 }
 
 input:checked ~ .text:after{
-  color: #000;
+  color: #616368;
 }
 
 @media (min-width: 640px) {
