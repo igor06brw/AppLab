@@ -22884,6 +22884,52 @@ video {
           animation: bounce 1s infinite;
 }
 
+.inset-5\% {
+  top: 5%;
+  right: 5%;
+  bottom: 5%;
+  left: 5%;
+}
+
+.inset-t-5\% {
+  top: 5%;
+}
+
+.inset-r-5\% {
+  right: 5%;
+}
+
+.inset-b-5\% {
+  bottom: 5%;
+}
+
+.inset-l-5\% {
+  left: 5%;
+}
+
+.inset-40\% {
+  top: 40%;
+  right: 40%;
+  bottom: 40%;
+  left: 40%;
+}
+
+.inset-t-40\% {
+  top: 40%;
+}
+
+.inset-r-40\% {
+  right: 40%;
+}
+
+.inset-b-40\% {
+  bottom: 40%;
+}
+
+.inset-l-40\% {
+  left: 40%;
+}
+
 .inset-1\/2 {
   top: 50%;
   right: 50%;
@@ -22932,6 +22978,97 @@ video {
 
 html {
   font-family: 'Poppins', sans-serif;
+}
+
+.switch {
+  display: block;
+  width: 300px;
+  height: 60px;
+  position: relative;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: white;
+  border: 3px solid white;
+  box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+.slider:before {
+  top: 10%;
+  left: 2%;
+  width: 50%;
+  height: 80%;
+  content: "";
+  position: absolute;
+  color: white;
+  background-color: blue;
+  transition: .2s ease-in-out;
+  border-radius: 999px;
+}
+
+.slider.round {
+  border-radius: 35px;
+}
+
+.slider:before {
+  text-align: center;
+  z-index: 10;
+}
+
+.slider:after {
+  top: 10%;
+  width: 300px;
+  height: 60px;
+  left: 0%;
+  z-index: 10;
+  color: #fff;
+  position: absolute;
+  text-align: center;
+}
+
+.text {
+  top: 0; left: 0; right: 0; bottom: 0;
+  position: absolute;
+  display: block;
+  width: 300px;
+  height: 60px;
+  z-index: 10;
+}
+
+.text:before,
+  .text:after {
+  position: absolute;
+  top: 30%;
+}
+
+.text:before {
+  left: 56%;
+  content: 'Annually';
+}
+
+.text:after {
+  color: #fff;
+  left: 17%;
+  content: 'Monthly';
+}
+
+input {
+  display: none;
+}
+
+input:checked + .slider:before {
+  left: 47%;
+}
+
+input:checked ~ .text:before {
+  color: #fff;
+}
+
+input:checked ~ .text:after{
+  color: #000;
 }
 
 @media (min-width: 640px) {
@@ -45165,6 +45302,52 @@ html {
   .sm\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .sm\:inset-5\% {
+    top: 5%;
+    right: 5%;
+    bottom: 5%;
+    left: 5%;
+  }
+
+  .sm\:inset-t-5\% {
+    top: 5%;
+  }
+
+  .sm\:inset-r-5\% {
+    right: 5%;
+  }
+
+  .sm\:inset-b-5\% {
+    bottom: 5%;
+  }
+
+  .sm\:inset-l-5\% {
+    left: 5%;
+  }
+
+  .sm\:inset-40\% {
+    top: 40%;
+    right: 40%;
+    bottom: 40%;
+    left: 40%;
+  }
+
+  .sm\:inset-t-40\% {
+    top: 40%;
+  }
+
+  .sm\:inset-r-40\% {
+    right: 40%;
+  }
+
+  .sm\:inset-b-40\% {
+    bottom: 40%;
+  }
+
+  .sm\:inset-l-40\% {
+    left: 40%;
   }
 
   .sm\:inset-1\/2 {
@@ -67447,6 +67630,52 @@ html {
             animation: bounce 1s infinite;
   }
 
+  .md\:inset-5\% {
+    top: 5%;
+    right: 5%;
+    bottom: 5%;
+    left: 5%;
+  }
+
+  .md\:inset-t-5\% {
+    top: 5%;
+  }
+
+  .md\:inset-r-5\% {
+    right: 5%;
+  }
+
+  .md\:inset-b-5\% {
+    bottom: 5%;
+  }
+
+  .md\:inset-l-5\% {
+    left: 5%;
+  }
+
+  .md\:inset-40\% {
+    top: 40%;
+    right: 40%;
+    bottom: 40%;
+    left: 40%;
+  }
+
+  .md\:inset-t-40\% {
+    top: 40%;
+  }
+
+  .md\:inset-r-40\% {
+    right: 40%;
+  }
+
+  .md\:inset-b-40\% {
+    bottom: 40%;
+  }
+
+  .md\:inset-l-40\% {
+    left: 40%;
+  }
+
   .md\:inset-1\/2 {
     top: 50%;
     right: 50%;
@@ -89727,6 +89956,52 @@ html {
             animation: bounce 1s infinite;
   }
 
+  .lg\:inset-5\% {
+    top: 5%;
+    right: 5%;
+    bottom: 5%;
+    left: 5%;
+  }
+
+  .lg\:inset-t-5\% {
+    top: 5%;
+  }
+
+  .lg\:inset-r-5\% {
+    right: 5%;
+  }
+
+  .lg\:inset-b-5\% {
+    bottom: 5%;
+  }
+
+  .lg\:inset-l-5\% {
+    left: 5%;
+  }
+
+  .lg\:inset-40\% {
+    top: 40%;
+    right: 40%;
+    bottom: 40%;
+    left: 40%;
+  }
+
+  .lg\:inset-t-40\% {
+    top: 40%;
+  }
+
+  .lg\:inset-r-40\% {
+    right: 40%;
+  }
+
+  .lg\:inset-b-40\% {
+    bottom: 40%;
+  }
+
+  .lg\:inset-l-40\% {
+    left: 40%;
+  }
+
   .lg\:inset-1\/2 {
     top: 50%;
     right: 50%;
@@ -112005,6 +112280,52 @@ html {
   .xl\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .xl\:inset-5\% {
+    top: 5%;
+    right: 5%;
+    bottom: 5%;
+    left: 5%;
+  }
+
+  .xl\:inset-t-5\% {
+    top: 5%;
+  }
+
+  .xl\:inset-r-5\% {
+    right: 5%;
+  }
+
+  .xl\:inset-b-5\% {
+    bottom: 5%;
+  }
+
+  .xl\:inset-l-5\% {
+    left: 5%;
+  }
+
+  .xl\:inset-40\% {
+    top: 40%;
+    right: 40%;
+    bottom: 40%;
+    left: 40%;
+  }
+
+  .xl\:inset-t-40\% {
+    top: 40%;
+  }
+
+  .xl\:inset-r-40\% {
+    right: 40%;
+  }
+
+  .xl\:inset-b-40\% {
+    bottom: 40%;
+  }
+
+  .xl\:inset-l-40\% {
+    left: 40%;
   }
 
   .xl\:inset-1\/2 {
