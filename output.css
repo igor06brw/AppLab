@@ -22884,6 +22884,29 @@ video {
           animation: bounce 1s infinite;
 }
 
+.inset-3\% {
+  top: 3%;
+  right: 3%;
+  bottom: 3%;
+  left: 3%;
+}
+
+.inset-t-3\% {
+  top: 3%;
+}
+
+.inset-r-3\% {
+  right: 3%;
+}
+
+.inset-b-3\% {
+  bottom: 3%;
+}
+
+.inset-l-3\% {
+  left: 3%;
+}
+
 .inset-5\% {
   top: 5%;
   right: 5%;
@@ -45337,6 +45360,29 @@ input:checked ~ .text:after{
             animation: bounce 1s infinite;
   }
 
+  .sm\:inset-3\% {
+    top: 3%;
+    right: 3%;
+    bottom: 3%;
+    left: 3%;
+  }
+
+  .sm\:inset-t-3\% {
+    top: 3%;
+  }
+
+  .sm\:inset-r-3\% {
+    right: 3%;
+  }
+
+  .sm\:inset-b-3\% {
+    bottom: 3%;
+  }
+
+  .sm\:inset-l-3\% {
+    left: 3%;
+  }
+
   .sm\:inset-5\% {
     top: 5%;
     right: 5%;
@@ -67684,6 +67730,29 @@ input:checked ~ .text:after{
   .md\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .md\:inset-3\% {
+    top: 3%;
+    right: 3%;
+    bottom: 3%;
+    left: 3%;
+  }
+
+  .md\:inset-t-3\% {
+    top: 3%;
+  }
+
+  .md\:inset-r-3\% {
+    right: 3%;
+  }
+
+  .md\:inset-b-3\% {
+    bottom: 3%;
+  }
+
+  .md\:inset-l-3\% {
+    left: 3%;
   }
 
   .md\:inset-5\% {
@@ -90035,6 +90104,29 @@ input:checked ~ .text:after{
             animation: bounce 1s infinite;
   }
 
+  .lg\:inset-3\% {
+    top: 3%;
+    right: 3%;
+    bottom: 3%;
+    left: 3%;
+  }
+
+  .lg\:inset-t-3\% {
+    top: 3%;
+  }
+
+  .lg\:inset-r-3\% {
+    right: 3%;
+  }
+
+  .lg\:inset-b-3\% {
+    bottom: 3%;
+  }
+
+  .lg\:inset-l-3\% {
+    left: 3%;
+  }
+
   .lg\:inset-5\% {
     top: 5%;
     right: 5%;
@@ -112382,6 +112474,29 @@ input:checked ~ .text:after{
   .xl\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .xl\:inset-3\% {
+    top: 3%;
+    right: 3%;
+    bottom: 3%;
+    left: 3%;
+  }
+
+  .xl\:inset-t-3\% {
+    top: 3%;
+  }
+
+  .xl\:inset-r-3\% {
+    right: 3%;
+  }
+
+  .xl\:inset-b-3\% {
+    bottom: 3%;
+  }
+
+  .xl\:inset-l-3\% {
+    left: 3%;
   }
 
   .xl\:inset-5\% {

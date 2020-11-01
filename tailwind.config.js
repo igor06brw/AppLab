@@ -837,6 +837,7 @@ module.exports = {
     require('tailwindcss-inset')({
       variants: ['responsive'], // default: []
       insets: {
+        '3%': '3%',
         '5%': '5%',
         '40%': '40%',
         '50%': '50%',
