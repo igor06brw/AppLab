@@ -87,3 +87,12 @@ html {
   input:checked ~ .text:after{
     color: #616368;
   }
+
+  .clients__prev:after {
+    display: block;
+    margin: 28% 40%;
+    width: 40px;
+    height: 20px;
+    content: "";
+    border-right: 1px solid
+  }

@@ -22930,6 +22930,29 @@ video {
   left: 40%;
 }
 
+.inset-50\% {
+  top: 50%;
+  right: 50%;
+  bottom: 50%;
+  left: 50%;
+}
+
+.inset-t-50\% {
+  top: 50%;
+}
+
+.inset-r-50\% {
+  right: 50%;
+}
+
+.inset-b-50\% {
+  bottom: 50%;
+}
+
+.inset-l-50\% {
+  left: 50%;
+}
+
 .inset-1\/2 {
   top: 50%;
   right: 50%;
@@ -23070,6 +23093,15 @@ input:checked ~ .text:before {
 
 input:checked ~ .text:after{
   color: #616368;
+}
+
+.clients__prev:after {
+  display: block;
+  margin: 28% 40%;
+  width: 40px;
+  height: 20px;
+  content: "";
+  border-right: 1px solid
 }
 
 @media (min-width: 640px) {
@@ -45349,6 +45381,29 @@ input:checked ~ .text:after{
 
   .sm\:inset-l-40\% {
     left: 40%;
+  }
+
+  .sm\:inset-50\% {
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+  }
+
+  .sm\:inset-t-50\% {
+    top: 50%;
+  }
+
+  .sm\:inset-r-50\% {
+    right: 50%;
+  }
+
+  .sm\:inset-b-50\% {
+    bottom: 50%;
+  }
+
+  .sm\:inset-l-50\% {
+    left: 50%;
   }
 
   .sm\:inset-1\/2 {
@@ -67677,6 +67732,29 @@ input:checked ~ .text:after{
     left: 40%;
   }
 
+  .md\:inset-50\% {
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+  }
+
+  .md\:inset-t-50\% {
+    top: 50%;
+  }
+
+  .md\:inset-r-50\% {
+    right: 50%;
+  }
+
+  .md\:inset-b-50\% {
+    bottom: 50%;
+  }
+
+  .md\:inset-l-50\% {
+    left: 50%;
+  }
+
   .md\:inset-1\/2 {
     top: 50%;
     right: 50%;
@@ -90003,6 +90081,29 @@ input:checked ~ .text:after{
     left: 40%;
   }
 
+  .lg\:inset-50\% {
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+  }
+
+  .lg\:inset-t-50\% {
+    top: 50%;
+  }
+
+  .lg\:inset-r-50\% {
+    right: 50%;
+  }
+
+  .lg\:inset-b-50\% {
+    bottom: 50%;
+  }
+
+  .lg\:inset-l-50\% {
+    left: 50%;
+  }
+
   .lg\:inset-1\/2 {
     top: 50%;
     right: 50%;
@@ -112327,6 +112428,29 @@ input:checked ~ .text:after{
 
   .xl\:inset-l-40\% {
     left: 40%;
+  }
+
+  .xl\:inset-50\% {
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+  }
+
+  .xl\:inset-t-50\% {
+    top: 50%;
+  }
+
+  .xl\:inset-r-50\% {
+    right: 50%;
+  }
+
+  .xl\:inset-b-50\% {
+    bottom: 50%;
+  }
+
+  .xl\:inset-l-50\% {
+    left: 50%;
   }
 
   .xl\:inset-1\/2 {
