@@ -363,8 +363,12 @@
             </div>
         </div>
     </section>
-    <section class="section__collapses">
-        <div class="collapses xl:container text-primary mx-auto relative">
+    <section class="section__collapses w-screen shadow-md">
+        <div class="collapses xl:container text-primary mx-auto relative pb-12">
+            <div class="clients w-1/2 z-10 text-center mx-auto">
+                <h1 class="clients__heading text-4xl leading-none font-bold pt-12">Frequently asked questions</h1>
+                <p class="clients__description text-md pt-8 pb-8">The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook.</p>
+            </div>
             <div x-data={show:false} class="collapses__collapse bg-gray-100 w-full my-3">
                 <div class="border-0 px-12 py-5 flex justify-between">
                     <button @click="show=!show" class="collapses__button text-primary font-bold text-xl hover:text-blue-700 focus:outline-none" type="button">
