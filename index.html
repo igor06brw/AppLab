@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="output.css">
 </head>
 <body>
-    <section class="headline w-screen h-screen bg-headline">
+    <section class="headline w-screen h-screen bg-headline overflow-hidden">
         <div class="headline__wrapper xl:container mx-auto pt-24 pb-5 text-primary">
             <nav class="headline__nav nav flex">
                 <div class="nav__logo w-2/6">
@@ -54,7 +54,7 @@
             </header>
         </div>
     </section>
-    <section class="section__company py-32">
+    <section class="section__company py-32 overflow-hidden">
         <div class="company lg:container mx-auto text-primary">
             <h6 class="company__header text-center text-lg">Trusted by companies like</h6>
             <ul class="company__list flex items-center justify-evenly pt-8">
@@ -76,7 +76,7 @@
             </ul>
         </div>
     </section>
-    <section class="section__features">
+    <section class="section__features overflow-hidden">
         <div class="features flex xl:container text-primary mx-auto">
             <div class="features__header w-6/12 relative">
                 <img class="features__background absolute z-0 w-screen max-w-screen-md top-0 right-0" src="./assets/bg-2.jpg" alt="background-2" srcset="">
@@ -116,13 +116,13 @@
             </div>
         </div>
     </section>
-    <section class="section__description mt-64">
+    <section class="section__description mt-64 overflow-hidden">
         <div class="descriptio flex items-center xl:container text-primary mx-auto">
             <h4 class="description__headline text-4xl pl-12 pr-20 font-bold border-r border-gray-500 border-solid">Smart jackpots that you may love this anytime & anywhere</h4>
             <p class="description__paragraph text-xl px-20">The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook.</p>
         </div>
     </section>
-    <section class="section__list">
+    <section class="section__list overflow-hidden">
         <div class="list xl:container text-primary mx-auto">
             <ul class="list__list flex pt-16">
                 <li class="list__element inline-block pt-12 w-1/3">
@@ -149,7 +149,7 @@
             </ul>
         </div>
     </section>
-    <section class="section__description-two mt-32">
+    <section class="section__description-two mt-32 overflow-hidden">
         <div class="description-two flex xl:container align-center text-primary mx-auto">
             <div class="description-two__header w-6/12 relative">
                 <img class="description-two__background absolute z-0 w-screen max-w-screen-md top-0 right-0" src="./assets/bg-3.png" alt="background-2" srcset="">
@@ -163,7 +163,7 @@
             </div>
         </div>
     </section>
-    <section class="section__chooses mt-64">
+    <section class="section__chooses mt-64 overflow-hidden">
         <div class="chooses xl:container align-center text-primary mx-auto">
             <div class="chooses__header w-full text-center">
                 <h4 class="chooses__heading font-bold text-5xl leading-tight w-1/2 mx-auto">Why you should choose our app</h4>
@@ -215,7 +215,7 @@
             </ul>
         </div>
     </section>
-    <section class="section__chooses-two mt-64">
+    <section class="section__chooses-two mt-64 overflow-hidden">
         <div class="chooses-two xl:container text-primary mx-auto relative">
             <div class="chooses-two__header w-full">
                 <h4 class="chooses-two__heading font-bold text-5xl leading-tight w-5/12">Ultimate features that we built</h4>
@@ -265,7 +265,7 @@
             <img class="description-two__background absolute z-0 w-full max-w-screen-lg  inset-l-40% inset-t-5% top-0" src="./assets/bg-4.jpg" alt="background-4">
         </div>
     </section>
-    <section class="section__price mt-64 pb-16 w-screen shadow-md">
+    <section class="section__price mt-64 pb-16 w-screen shadow-md overflow-hidden">
         <div class="price xl:container align-center text-primary mx-auto">
             <div class="price__header w-full text-center">
                 <h4 class="price__heading font-bold text-5xl leading-tight w-1/2 mx-auto">Get awesome features, without extra charges</h4>
@@ -330,7 +330,7 @@
             </div>
         </div>
     </section>
-    <section class="section__clients mt-64 mb-32">
+    <section class="section__clients mt-64 mb-32 overflow-hidden">
         <div class="clients xl:container flex text-primary mx-auto relative">
             <div class="clients__header w-1/2 relative">
                 <img class="clients__background absolute z-0 w-screen max-w-screen-lg top-0 right-0" src="./assets/bg-5.jpg" alt="background-5">
@@ -363,7 +363,7 @@
             </div>
         </div>
     </section>
-    <section class="section__collapses w-screen shadow-md">
+    <section class="section__collapses w-screen shadow-md overflow-hidden">
         <div class="collapses xl:container text-primary mx-auto relative pb-12">
             <div class="clients w-1/2 z-10 text-center mx-auto">
                 <h1 class="clients__heading text-4xl leading-none font-bold pt-12">Frequently asked questions</h1>
@@ -451,7 +451,7 @@
             </div>
         </div>
     </section>
-    <section class="section__download">
+    <section class="section__download overflow-hidden">
         <div class="download xl:container flex flex-row text-primary mx-auto relative pb-12">
             <div class="download__header w-7/12 mt-32 mb-16">
                 <h4 class="download__heading font-bold text-5xl leading-tight w-full">Download our App now !</h4>
@@ -461,10 +461,48 @@
                     <img src="./assets/store-apple.png" alt="App Store" class="download__apple">
                 </div>
             </div>
-            <img class="download__background absolute z-0 w-full max-w-screen-lg  inset-l-40% top-0" src="./assets/bg-6.png" alt="background-6">
+            <img class="download__background absolute z-100 w-full max-w-screen-lg  inset-l-50% top-0" src="./assets/bg-6.png" alt="background-6">
         </div>
     </section>
-    <footer class="footer w-screen h-screen bg-primary">
+    <footer class="footer w-screen bg-primary pb-32 overflow-hidden">
+        <div class="footer__wrapper xl:container mx-auto pt-24 pb-5 text-white">
+            <nav class="footer__nav nav flex flex-col items-center">
+                <div class="nav__logo">
+                    <a href="" class="logo__text font-bold text-4xl"><span class="logo__text--coloured text-logo-coloured">App</span>Lab</a>
+                </div>
+                <ul class="nav__list flex justify-between items-center w-1/2  pt-12 text-xl font-normal">
+                    <li class="nav__element">
+                        <a href="#!" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__element">
+                        <a href="#!" class="nav__link">Key Features</a>
+                    </li>
+                    <li class="nav__element">
+                        <a href="#!" class="nav__link">Pricing</a>
+                    </li>
+                    <li class="nav__element">
+                        <a href="#!" class="nav__link">Testiminial</a>
+                    </li>
+                    <li class="nav__element">
+                        <a href="#!" class="nav__link">FAQ</a>
+                    </li>
+                </ul>
+                <ul class="nav__list flex justify-between items-center w-1/6 text-gray-700 pt-12 text-4xl font-normal">
+                    <li class="nav__element">
+                        <a href="#!" class="nav__link hover:text-white active:text-white transition duration-300 ease-in-out"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li class="nav__element">
+                        <a href="#!" class="nav__link hover:text-white active:text-white transition duration-300 ease-in-out"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="nav__element">
+                        <a href="#!" class="nav__link hover:text-white active:text-white transition duration-300 ease-in-out"><i class="fab fa-slack-hash"></i></a>
+                    </li>
+                    <li class="nav__element">
+                        <a href="#!" class="nav__link hover:text-white active:text-white transition duration-300 ease-in-out"><i class="fab fa-github"></i></a>
+                    </li>
+                </ul>
+            </nav> 
+            <h4 class="text-gray-700 text-xl mt-32 text-center">Copyright© Arifur Rahman Tushar 2019. All rights reserved</h4>   
     </footer>
 </body>
 </html>
