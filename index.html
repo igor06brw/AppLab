@@ -8,6 +8,7 @@
     </title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
     <link rel="stylesheet" href="output.css">
 </head>
 <body>
@@ -358,6 +359,26 @@
                             <a href="" class="clients__next inline-block rounded-full bg-gray-200 w-12 h-12 block relative ml-5"><i class="fas fa-long-arrow-alt-right transform -translate-x-1/2 -translate-y-1/2 inset-t-1/2 inset-l-1/2 absolute text-xl text-primary-button"></i></a>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section__collapses">
+        <div class="collapses xl:container flex text-primary mx-auto relative">
+            <div x-data={show:false} class="collapses__collapse bg-gray-100 w-full">
+                <div class="border-0 px-12 py-5 flex justify-between">
+                    <button @click="show=!show" class="collapses__button text-primary font-bold text-xl hover:text-blue-700 focus:outline-none" type="button">
+                        How to contact with riders emergency?
+                    </button>
+                    <span x-show="show" class="collapses__icon justify-end">
+                        <i class="fas fa-minus"></i>
+                    </span>
+                    <span x-show="!show" class="collapses__icon justify-end">
+                        <i class="fas fa-plus"></i>
+                    </span>
+                </div>
+                <div x-show="show" class="border-0 px-12 py-5">
+                    Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
                 </div>
             </div>
         </div>
