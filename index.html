@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
     <link rel="stylesheet" href="output.css">
 </head>
-<body>
+<body class="overflow-x-hidden">
     <section class="headline w-screen h-screen bg-headline overflow-hidden relative">
         <div class="headline__pictures w-full h-full absolute">
             <img class="w-full absolute bottom-0 z-10" src="./assets/header/town.png" alt="Photo" />
@@ -187,11 +187,11 @@
     </section>
     <section class="section__description-two mt-32 overflow-hidden">
         <div class="description-two flex xl:container align-center text-primary mx-auto">
-            <div class="description-two__header w-6/12 relative">
-                <img class="description-two__background absolute z-0 w-screen max-w-screen-md top-0 right-0" src="./assets/bg-3.png" alt="background-2" srcset="">
+            <div class="description-two__header md:w-6/12 lg:relative absolute z-0">
+                <img class="description-two__background absolute z-0 w-screen max-w-screen-xl lg:w-screen lg:max-w-screen-md lg:top-0 lg:right-0 lg:opacity-100 opacity-10 overflow-hidden" src="./assets/bg-3.png" alt="background-2" srcset="">
             </div>
-            <div class="description-two__header w-6/12 pt-48">
-                <div class="description-two mx-32">
+            <div class="description-two__header w-full lg:pt-48 relative z-10">
+                <div class="description-two mx-6 lg:mx-32">
                     <h1 class="description-two__heading text-4xl leading-none font-bold pt-5">Designed & built by the latest code integration</h1>
                     <p class="description-two__description text-xl pt-8">The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook.</p>
                     <button class="description-two__submit bg-primary-button rounded-full text-white w-48 h-16 font-bold text-xl mt-8">Learn more</button>
@@ -199,11 +199,11 @@
             </div>
         </div>
     </section>
-    <section class="section__chooses mt-64 overflow-hidden">
+    <section class="section__chooses mt-32 md:mt-64 overflow-hidden">
         <div class="chooses xl:container align-center text-primary mx-auto">
             <div class="chooses__header w-full text-center">
-                <h4 class="chooses__heading font-bold text-5xl leading-tight w-1/2 mx-auto">Why you should choose our app</h4>
-                <p class="chooses__description text-xl pt-12 w-9/12 mx-auto">The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook.</p>
+                <h4 class="chooses__heading font-bold text-5xl leading-tight sm:w-full md:w-1/2 mx-auto">Why you should choose our app</h4>
+                <p class="chooses__description text-xl pt-12 w-11/12 md:w-9/12 mx-auto">The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook.</p>
             </div>
             <ul class="choose__list list flex pt-16 w-full flex-wrap z-10">
                 <li class="list__element inline-block pt-12 w-1/3">
